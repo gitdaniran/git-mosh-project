@@ -138,7 +138,7 @@ export default function Counter() {
   return (
     <div>
       <nav className="navbar">
-        <h2>Navbar</h2>
+        <h2>Navbar Navbar</h2>
         <button>{count.countItem + count.countItem1 + 
         count.countItem2 + count.countItem3}</button>
 
