@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 15px;
+  
+}
+
+.counter {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.counter-span {
+  width: 40px;
+  background-color: lightblue;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.counter-zero {
+  width: 40px;
+  background-color: yellow;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.counter button {
+  background-color: gray;
+  color: whitesmoke;
+  border-radius: 5px;
+  
+}
+
+.counter button:last-child {
+  background-color: rgb(153, 33, 33);
+}
+
+.navbar {
+  display: flex;
+  justify-content:start !important;
+  align-items: center;
+}
+
+.navbar button {
+  background-color: gray;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 20px;
+  width: 40px;
+  
+}
+
+.navbar h2 {
+  width: 100px;
+}
+
+.reset {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: rgb(68, 68, 147);
+  color: whitesmoke;
+  border-radius: 5px;
+}
